@@ -1,0 +1,65 @@
+	* {padding:0;margin:0;}
+	ul {list-style:none;}
+	#nav{width:1300px; height:75px; margin:0 24.5px;}
+	#nav_left{width:1000px; height:75px; float:left; margin-top:17px;}
+	#aa1{width:200px; height:75px; font-size:20px;}
+	#aa1 a{text-decoration:none; font-family:"黑体"; color:#000000;}
+	#aa2{width:650px; height:75px; margin-left:160px; margin-top:-60px;}
+	#aa2 ul{width:600px; height:75px; float:right;}
+	#aa2 ul li{float:left; list-style:none; margin:0 20px;}
+	#aa2 ul li a{text-decoration:none; cursor:pointer; outline:0; display:block; color:#000000;}
+	
+	#nav_right{position: relative;z-index: 3;float: right;margin-top: 17px; width: 174px; height: 24px;padding: 8px 13px;border-radius: 20px;
+    border: 1px solid #e3e3e3;}
+	#nav_right #myinput{position: absolute;top: 10px;left: 15px;z-index: 1;color: #cbcbcb;width: 150px;height: 20px;line-height: 20px;background-color: transparent;}
+	#hot_1{z-index: 2;position: relative;display: none;width: 400px;background-color: #FFFFFF;float: left;}
+	#hot_1 a{text-decoration:none; font-size:14px;color:#000;}
+	#hot_1 a:hover{ color:#007eff;}
+	#hot_1 li,#hot_1 p{z-index: 2;width: 400px;height: 30px;ine-height: 30px;}
+	img {vertical-align:middle;border:none;}
+	.wrap { width:1346px;height:450px;margin:0px auto;position:relative;}
+	.wrap .img{height:450px;}
+	.wrap .img li {position:absolute;left:0;top:0;display:none;}
+	.wrap .num { position:absolute;left:0;bottom:20px;font-size:0;text-align:center;width:100%;}
+	.wrap .num li {width:20px; height:20px;  display:inline-block;  background:#666;  text-align:center; line-height:20px;color:#fff; border-radius:50%;font-size:16px;margin:0 3px;cursor:pointer;}
+	.wrap .num li.active { background:#007eff;}
+	.wrap .btn {position:absolute;top:50%; margin-top:-30px;width:30px;height:65px;background:rgba(0,0,0,.3);color:#fff;text-align:center;line-height:60px;font-size:40px;display:none;cursor:pointer;}
+	.wrap .btn-left {left:0;}
+	.wrap .btn-right { right:0;}
+	.wrap:hover .btn {display:block;}
+	#game_02{width:1300px; height:360px; margin:40px 24.5px 0;}
+	#game_02_left ul{ width:940px;}
+	#game_02_left ul li{list-style:none; float:left; margin-left:5px;}
+	.title-a strong.bor-blue {border-left: 3px solid #007eff;padding-left: 10px;}
+	#gameRecommendList a{text-decoration:none;}
+	.list-c li {position:relative;overflow: hidden;float: left;width: 228px;height: 318px;border: 1px solid #e9e9e9;background-color: #f5f5f5;}
+	.list-c li p.name {position:absolute;top:268px;left:0;z-index:1;width:218px;overflow:hidden;height: 50px;line-height: 50px;font-size: 14px;padding-left: 10px;background-color: #fff;}
+	.list-c li .go-game {float: right;text-align: center;color: #fff;width: 90px;background-color: #007eff;transition: background .2s;-webkit-transition: background .2s;}
+	.list-c li:hover .go-game {background-color:#fa760b;}
+	.bgcolor1:hover{color:#fa760b;}
+	#game_02_right{ float:right; width:300px; height:315px; margin-right:51px;}
+	#game_02_right dt{background-color:#CCCCCC; line-height:30px; padding-left:5px;}
+	#game_02_right dt span{float:right; color:#007eff;}
+	.bgcolor{background-color:#999999;}
+	#game_02_right dd{height:132px; padding:5px 65px 3px 25px;; margin-left:0;background-color:#FFFFFF; display:none;}
+	#game_03{width:1300px; height:440px; margin:25px 24.5px 0;}
+	.title-a {position: relative;overflow: hidden;font-size: 18px;padding-bottom: 20px;height: 20px;line-height: 20px;}
+	.title-a strong.bor-orange {border-left: 3px solid #007eff;padding-left: 10px;}
+	.title-a strong {float: left;color: #3f3f3f;}
+	.title-a .menu-a {float: left;margin-left: 50px;height: 25px;color:#000;}
+	.title-a .menu-a .selected {color: #fa760b;}
+	.title-a .menu-a span {float: left;height: 28px;text-align: center;width: 62px;margin: 0 10px;font-size: 14px;cursor: pointer;}
+	.pcgame-box {overflow: hidden;height: 342px;}
+	.list-d{width:1340px;height: 342px;}
+	.list-d li {position: relative;overflow: hidden;float: left;margin: 0 43px 20px 20px;width: 228px;height: 159px;border: 1px solid #e9e9e9;}
+	.list-d li img {overflow: hidden;width: 228px;height: 124px;position: absolute;left: 50%;top: 50%;margin-left: -114px;margin-top: -80px;
+transform-origin: center center 0;transition: transform 0.5s ease 0s;}
+	.list-d li p.name{position: absolute;top: 124px;left: 0;z-index: 1;width: 228px;overflow: hidden;height: 35px;text-align: center;
+line-height: 35px;font-size: 14px;background-color: #fff;}
+	.list-d li p:hover{background-color:#007eff;color:#fff; font-size:16px;}
+	.trail-box{width:1349px; height:200px;font: normal 12px/1.5 Microsoft YaHei,Arial,san-serif;color: #aaa;outline: 0;border: 0; width: 860px;margin: -70px auto 0 auto;padding: 0px 0 50px 80px;}
+	.trail-box a{text-decoration:none; color:#999999;}
+	.trail-box a:hover{color:#fff;}
+	#foot{ height:200px;font: normal 12px/1.5 Microsoft YaHei,Arial,san-serif;color: #aaa;background-color: #3f3f3f;overflow: hidden;}
+
+

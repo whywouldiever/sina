@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新浪</title>
+<style>
+	body{margin:0; width:500px; height:280px;}
+	html{width:500px;}
+	#one{width:500px;}
+	#one ul{margin:0 auto;}
+  .over{border:solid 2px #f60;}
+  .out{border:solid 1px #eeeeee;}
+  .myid{font-size:20px; text-align:center; float:left; width:130px;}
+  .mouseOverStyle{background-image:url(image/btn_over.gif); text-align:center; color:#cc0099; border:0px; height:35px; width:130px; margin:0px; padding:0px; font-size:13px;}
+  .mouseOutStyle{background-image:url(image/btn_out.gif);  text-align:center;color:#0000ff; border:0px; height:35px; width:130px; margin:0px; padding:0px; font-size:13px;}
+</style>
+<script type="text/javascript">
+ var len=document.getElementsByTagName("input");
+  for(var i=0;i<len.length;i++){
+    len[i].onmouseover=function(){
+	  this.className="over";
+	}
+	len[i].onmouseout=function(){
+	  this.className="out";
+	}
+  }
+  function openLogin(){
+  	document.getElementsById("win").style.display="";
+  	document.getElementsById("back").style.display="";
+  }
+  function closeLogin(){
+  	document.getElementsById("win").style.display="none";
+  	document.getElementsById("back").style.display="none";
+  }
+</script>
+</head>
+
+<body>
+<div id="one">
+<ul style="list-style:none; width:460px; height:280px;background-image:url(image/sina.jpg);">
+	<li style="padding-top:140px; margin-left:75px;">邮箱名：<input name="one" type="text" />@sina.com</li>
+	<li style="margin-left:91px; margin-top:17px;">密码：<input name="two" type="text" /></li>
+	<li style="margin-left:50px; margin-top:20px;" class="myid" id="back" style="display:none; position:absolute; left:0; top:0; width:100%; height:100%;" onmouseover="this.className='mouseOverStyle'" onmouseout="this.className='mouseOutStyle'">登录</li>
+    <li style="margin-left:233px; margin-top:-35px;" class="myid" id="win" style="display:none; position:absolute; left:50%; top:50%; width:600px; height:400px; margin-left:-300px; margin-top:-200px; text-align:center;" onmouseover="this.className='mouseOverStyle'" onmouseout="this.className='mouseOutStyle'"><a href="javascript:closeLogin();">取消</a></li>
+</ul>
+</div>
+
+</body>
+</html>

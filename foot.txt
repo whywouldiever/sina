@@ -1,0 +1,25 @@
+﻿<div id="foot">
+<a href="game.html"><img  style="margin-left: 170px;margin-top: 45px;"src="image/g0.png" /></a>
+<div class="trail-box">
+<p>
+<a href="#" target="_blank">帮助</a> | 
+<a href="#" target="_blank">官方微博</a> | 
+<a href="#" target="_blank">微游戏开放平台</a> | 
+<a href="#" target="_blank">微博认证及合作</a> | 
+<a href="#" target="_blank">新浪网导航</a> | 
+<a href="#" target="_blank">未成年人家长监护</a> | 
+<a href="#" target="_blank">游戏防沉迷</a>
+</p>
+<p style="margin-left: 22%;">
+<a target="_blank" href="#"><img src="" style="float:left;"><span>京公网安备 11010802023591号</span></a>
+</p>
+<p class="copyright"><span>北京微游互动网络科技有限公司  北京微梦创科网络技术有限公司 
+<a target="_blank" href="#" class="JWW_num" style="margin:0px 15px;">京网文[2011]0398-130号</a> 
+京ICP证100780号</span>Copyright © 1996-2017 SINA</p>
+<p class="copyright"><span>地址：北京市海淀区西北旺东路10号院新浪总部大厦  电话：010-57462673</span></p>
+</div>
+
+.trail-box{width:1349px; height:200px;font: normal 12px/1.5 Microsoft YaHei,Arial,san-serif;color: #aaa;outline: 0;border: 0; width: 860px;margin: -70px auto 0 auto;padding: 0px 0 50px 80px;}
+.trail-box a{text-decoration:none; color:#999999;}
+.trail-box a:hover{color:#fff;}
+#foot{ height:200px;font: normal 12px/1.5 Microsoft YaHei,Arial,san-serif;color: #aaa;background-color: #3f3f3f;overflow: hidden;}
